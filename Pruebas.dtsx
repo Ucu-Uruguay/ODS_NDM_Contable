@@ -12,8 +12,8 @@
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="1"
-  DTS:VersionGUID="{823C97E1-A854-41D8-B12D-EAC27F9495C2}">
+  DTS:VersionBuild="2"
+  DTS:VersionGUID="{B9B6EDD3-1503-4B57-ABED-811B41281F82}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,12 +27,12 @@
           DTS:ConnectionString="Data Source=PROD-UCUDBS10\POWERBI;User ID=rcalvo;Initial Catalog=ODS_UCU;Provider=SQLNCLI11.1;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="oEAqnxeToA0="
-            IV="88KHjad7vgT+U5N2OrKQjw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="B9D7ETRQWSY="
+            IV="jmubxOH6+9Y5vIUU4Z3Rtg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>88KHjad7vgT+U5N2OrKQj77K1HIZ/QcCc0/mjlqJFeNGDq4LRRe13CT4xIcfO1Pi5ieq4z3NP2yUE6s7VEvXVRNvDwr1CbQajNNlSoujh19z7n1XQ/lowYQVqigQ3RZ8Sg127qGWd+wJggC5SPtfl0jGunhYMswMUz5/o6p+hxAHWfbI3JNJXUG13bT1ezy1</CipherValue>
+              <CipherValue>jmubxOH6+9Y5vIUU4Z3RtoYxWScrov4QiqWkMcmpjbIbgDE0t6bcF4PJpctSS4yZQbdGAB3uefKv5WXil/ACqae+Bsb45TjQ1oMB2OUm0sZeFCC40LRpYgcUhT0I4D/y4yk4fXTnnXYCd2ygh4dyC5p8Vc45nxpCDG50vy9CO8ZMd5q7WC1NNR6BNjGAWFTI</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -55,7 +55,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{4D942128-4C9E-47C6-BB94-E2596C17A746}"
-          SQLTask:SqlStatementSource="SELECT COUNT(*) FROM ODS_NDM_CONT_cpt_planpagos" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="SELECT COUNT(*) FROM ODS_NDM_CONT_ct_alumnos" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
