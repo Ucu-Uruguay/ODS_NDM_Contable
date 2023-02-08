@@ -12,8 +12,8 @@
   DTS:ObjectName="CONTABLE_NODUM"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="47"
-  DTS:VersionGUID="{5F572BB3-5319-4F28-8D9D-D367B0232641}">
+  DTS:VersionBuild="48"
+  DTS:VersionGUID="{FF3ABC9E-2640-4EEE-B591-2F19938B5506}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,12 +27,12 @@
           DTS:ConnectionString="Data Source=10.245.0.6;User ID=nodum_read;Initial Catalog=Nodum_Prod;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="oSQCFmLiD+c="
-            IV="uErx4miQsbUnue4T4Z5Vqw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="cd4jGI1nlR4="
+            IV="6n2gf+dn7rxFhnJjvKDl6Q==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>uErx4miQsbUnue4T4Z5Vq9XGb5FfmPwMGBZFhnIy27H8znVMAzO8tG7qy+KS+9eIH7uRwPl4DkMh+/1U+3z6n6io8Ec0e4f/VYU/Sy3vDB/kzucHsNSfU7EvrRy1LK+7tS+2p3T2PMUAeQY6vwj8u2a4vjGV8hLVkHiqZutPNriE3DX21B7yXTjnyJtxpZF/</CipherValue>
+              <CipherValue>6n2gf+dn7rxFhnJjvKDl6ZtdfXFjImAUB7GhHq66NZqsLVj1/JbXHweVY2uPF8aYxW8HXrW1GEt+hBO9Gy6uq/9fpblIi+a40PEK6yblGQtpVNNtQ4QsZ9EKgt/eiN21IqMLJEFHNql2qKsq5ktIcmc/1TX3IrqCiewmlCly8/b+FyJs8q5NMBZk+IPBZKca</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -59,12 +59,12 @@
           DTS:ConnectionString="Data Source=PROD-UCUDBS10\POWERBI;User ID=rcalvo;Initial Catalog=ODS_UCU;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="8/MQxuEZEwA="
-            IV="61/aKvBzzhTTlIO55FnRQg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="3BXxWFnt57M="
+            IV="e77v3h6Ef+3GQtJsLC7oJw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>61/aKvBzzhTTlIO55FnRQj0H67Rew8e7YEq+Rxjk/X17gFDdSRAcs138lDQ3PqteKu+ecjmcihpNCfbcdDrdO2Een6hxQYdz4QcxvMsTNNhNkra0LJ+jFWS2g+K1ID/3r7bo8NssSq+ae+pkIh0Z4s4AuS4xQjqEZtcjTGXPQSqz2XuoYoBjaJJqYytrGp/p</CipherValue>
+              <CipherValue>e77v3h6Ef+3GQtJsLC7oJ7SjHKEM+ei5nnTIoRG4FpSjbFiEse7tyjbInxmd2nTPT3MoIdhAW8SoRMbm+LgIULjCsgj7oLxoSKf2+mbyiv+VMrefId6sov4Ms30OtEicRQw9kiJV97ZAhmUCQa4WYq4hJQoxotVRBNv1+5CtE55oCYjN6v05AKd4QPFlTj1k</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -130,7 +130,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{9B775636-16E8-4A07-9F36-777896DA28E4}"
-          SQLTask:SqlStatementSource="TRUNCATE TABLE ODS_NDM_CONT_ct_valcuotascont;&#xA;TRUNCATE TABLE ODS_NDM_CONT_ct_licenciaacade;&#xA;TRUNCATE TABLE ODS_NDM_CONT_ct_numeracuotas;&#xA;TRUNCATE TABLE ODS_NDM_CONT_ct_concepfaccont;&#xA;TRUNCATE TABLE ODS_NDM_CONT_ct_contratoscamp;&#xA;TRUNCATE TABLE ODS_NDM_CONT_ct_reajustecont;&#xA;TRUNCATE TABLE ODS_NDM_CONT_v_congvalcuotas;&#xA;&#xA;TRUNCATE TABLE ODS_NDM_CONT_cpt_facturas;&#xA;TRUNCATE TABLE ODS_NDM_CONT_cps_facturas;&#xA;TRUNCATE TABLE ODS_NDM_CONT_cpp_desccontfin;&#xA;TRUNCATE TABLE ODS_NDM_CONT_cpp_desccontrato;&#xA;TRUNCATE TABLE ODS_NDM_CONT_cpt_desccontl;&#xA;TRUNCATE TABLE ODS_NDM_CONT_cpt_inscripact;&#xA;TRUNCATE TABLE ODS_NDM_CONT_cpt_planpagos;&#xA;TRUNCATE TABLE ODS_NDM_CONT_v_cuotascontant;&#xA;&#xA;TRUNCATE TABLE ODS_NDM_CONT_ct_alumnos;&#xA;TRUNCATE TABLE ODS_NDM_CONT_ct_dptos;&#xA;TRUNCATE TABLE ODS_NDM_CONT_ct_clientes;&#xA;TRUNCATE TABLE ODS_NDM_CONT_ct_monedas;&#xA;&#xA;TRUNCATE TABLE ODS_NDM_CONT_v_cz_prebase&#xA;&#xA;TRUNCATE TABLE ODS_NDM_CONT_Ct_articulos &#xA;TRUNCATE TABLE ODS_NDM_CONT_Cpt_actrespago &#xA;TRUNCATE TABLE ODS_NDM_CONT_cpt_cobranza&#xA;TRUNCATE TABLE ODS_NDM_CONT_cpt_instmoroso &#xA;TRUNCATE TABLE ODS_NDM_CONT_cpt_gestionmor &#xA;TRUNCATE TABLE ODS_NDM_CONT_cpp_gestionmor&#xA;TRUNCATE TABLE ODS_NDM_CONT_cpt_altarecurse&#xA;TRUNCATE TABLE ODS_NDM_CONT_cpt_altarevalida" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="TRUNCATE TABLE ODS_NDM_CONT_ct_valcuotascont;&#xA;TRUNCATE TABLE ODS_NDM_CONT_ct_licenciaacade;&#xA;TRUNCATE TABLE ODS_NDM_CONT_ct_numeracuotas;&#xA;TRUNCATE TABLE ODS_NDM_CONT_ct_concepfaccont;&#xA;TRUNCATE TABLE ODS_NDM_CONT_ct_contratoscamp;&#xA;TRUNCATE TABLE ODS_NDM_CONT_ct_reajustecont;&#xA;TRUNCATE TABLE ODS_NDM_CONT_v_congvalcuotas;&#xA;&#xA;TRUNCATE TABLE ODS_NDM_CONT_cpt_facturas;&#xA;TRUNCATE TABLE ODS_NDM_CONT_cps_facturas;&#xA;TRUNCATE TABLE ODS_NDM_CONT_cpp_desccontfin;&#xA;TRUNCATE TABLE ODS_NDM_CONT_cpp_desccontrato;&#xA;TRUNCATE TABLE ODS_NDM_CONT_cpt_desccontl;&#xA;TRUNCATE TABLE ODS_NDM_CONT_cpt_inscripact;&#xA;TRUNCATE TABLE ODS_NDM_CONT_cpt_planpagos;&#xA;TRUNCATE TABLE ODS_NDM_CONT_v_cuotascontant;&#xA;&#xA;TRUNCATE TABLE ODS_NDM_CONT_ct_alumnos;&#xA;TRUNCATE TABLE ODS_NDM_CONT_ct_dptos;&#xA;TRUNCATE TABLE ODS_NDM_CONT_ct_clientes;&#xA;TRUNCATE TABLE ODS_NDM_CONT_ct_monedas;&#xA;&#xA;TRUNCATE TABLE ODS_NDM_CONT_v_cz_prebase&#xA;&#xA;TRUNCATE TABLE ODS_NDM_CONT_Ct_articulos &#xA;TRUNCATE TABLE ODS_NDM_CONT_Cpt_actrespago &#xA;TRUNCATE TABLE ODS_NDM_CONT_cpt_cobranza&#xA;TRUNCATE TABLE ODS_NDM_CONT_cpt_instmoroso &#xA;TRUNCATE TABLE ODS_NDM_CONT_cpt_gestionmor &#xA;TRUNCATE TABLE ODS_NDM_CONT_cpp_gestionmor&#xA;TRUNCATE TABLE ODS_NDM_CONT_cpt_altarecurse&#xA;TRUNCATE TABLE ODS_NDM_CONT_cpt_altarevalida&#xA;&#xA;TRUNCATE TABLE ODS_NDM_CONT_ct_dptosneg&#xA;TRUNCATE TABLE ODS_NDM_CONT_ct_codsiscarrera" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -3174,6 +3174,28 @@
                       lineageId="Package\Volcado datos\cps_facturas.Outputs[Salida de origen de OLE DB].Columns[idmontcont]"
                       name="idmontcont"
                       truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Volcado datos\cps_facturas.Outputs[Salida de origen de OLE DB].Columns[cod_cta_deud]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Volcado datos\cps_facturas.Outputs[Salida de origen de OLE DB].ExternalColumns[cod_cta_deud]"
+                      length="15"
+                      lineageId="Package\Volcado datos\cps_facturas.Outputs[Salida de origen de OLE DB].Columns[cod_cta_deud]"
+                      name="cod_cta_deud"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Volcado datos\cps_facturas.Outputs[Salida de origen de OLE DB].Columns[cod_aux_cta]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Volcado datos\cps_facturas.Outputs[Salida de origen de OLE DB].ExternalColumns[cod_aux_cta]"
+                      length="15"
+                      lineageId="Package\Volcado datos\cps_facturas.Outputs[Salida de origen de OLE DB].Columns[cod_aux_cta]"
+                      name="cod_aux_cta"
+                      truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -3955,6 +3977,18 @@
                       refId="Package\Volcado datos\cps_facturas.Outputs[Salida de origen de OLE DB].ExternalColumns[idmontcont]"
                       dataType="i4"
                       name="idmontcont" />
+                    <externalMetadataColumn
+                      refId="Package\Volcado datos\cps_facturas.Outputs[Salida de origen de OLE DB].ExternalColumns[cod_cta_deud]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      name="cod_cta_deud" />
+                    <externalMetadataColumn
+                      refId="Package\Volcado datos\cps_facturas.Outputs[Salida de origen de OLE DB].ExternalColumns[cod_aux_cta]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      name="cod_aux_cta" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -4876,6 +4910,20 @@
                       dataType="i4"
                       lineageId="Package\Volcado datos\cps_facturas.Outputs[Salida de error de origen de OLE DB].Columns[idmontcont]"
                       name="idmontcont" />
+                    <outputColumn
+                      refId="Package\Volcado datos\cps_facturas.Outputs[Salida de error de origen de OLE DB].Columns[cod_cta_deud]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      lineageId="Package\Volcado datos\cps_facturas.Outputs[Salida de error de origen de OLE DB].Columns[cod_cta_deud]"
+                      name="cod_cta_deud" />
+                    <outputColumn
+                      refId="Package\Volcado datos\cps_facturas.Outputs[Salida de error de origen de OLE DB].Columns[cod_aux_cta]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      lineageId="Package\Volcado datos\cps_facturas.Outputs[Salida de error de origen de OLE DB].Columns[cod_aux_cta]"
+                      name="cod_aux_cta" />
                     <outputColumn
                       refId="Package\Volcado datos\cps_facturas.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]"
                       dataType="i4"
@@ -11540,6 +11588,39 @@
                       lineageId="Package\Volcado datos\cpt_facturas.Outputs[Salida de origen de OLE DB].Columns[aniomes2]"
                       name="aniomes2"
                       truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Volcado datos\cpt_facturas.Outputs[Salida de origen de OLE DB].Columns[observaciones2]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Volcado datos\cpt_facturas.Outputs[Salida de origen de OLE DB].ExternalColumns[observaciones2]"
+                      length="500"
+                      lineageId="Package\Volcado datos\cpt_facturas.Outputs[Salida de origen de OLE DB].Columns[observaciones2]"
+                      name="observaciones2"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Volcado datos\cpt_facturas.Outputs[Salida de origen de OLE DB].Columns[cod_articulo]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Volcado datos\cpt_facturas.Outputs[Salida de origen de OLE DB].ExternalColumns[cod_articulo]"
+                      length="16"
+                      lineageId="Package\Volcado datos\cpt_facturas.Outputs[Salida de origen de OLE DB].Columns[cod_articulo]"
+                      name="cod_articulo"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Volcado datos\cpt_facturas.Outputs[Salida de origen de OLE DB].Columns[observaciones3]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Volcado datos\cpt_facturas.Outputs[Salida de origen de OLE DB].ExternalColumns[observaciones3]"
+                      length="500"
+                      lineageId="Package\Volcado datos\cpt_facturas.Outputs[Salida de origen de OLE DB].Columns[observaciones3]"
+                      name="observaciones3"
+                      truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -12283,6 +12364,24 @@
                       refId="Package\Volcado datos\cpt_facturas.Outputs[Salida de origen de OLE DB].ExternalColumns[aniomes2]"
                       dataType="i4"
                       name="aniomes2" />
+                    <externalMetadataColumn
+                      refId="Package\Volcado datos\cpt_facturas.Outputs[Salida de origen de OLE DB].ExternalColumns[observaciones2]"
+                      codePage="1252"
+                      dataType="str"
+                      length="500"
+                      name="observaciones2" />
+                    <externalMetadataColumn
+                      refId="Package\Volcado datos\cpt_facturas.Outputs[Salida de origen de OLE DB].ExternalColumns[cod_articulo]"
+                      codePage="1252"
+                      dataType="str"
+                      length="16"
+                      name="cod_articulo" />
+                    <externalMetadataColumn
+                      refId="Package\Volcado datos\cpt_facturas.Outputs[Salida de origen de OLE DB].ExternalColumns[observaciones3]"
+                      codePage="1252"
+                      dataType="str"
+                      length="500"
+                      name="observaciones3" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -13162,6 +13261,27 @@
                       dataType="i4"
                       lineageId="Package\Volcado datos\cpt_facturas.Outputs[Salida de error de origen de OLE DB].Columns[aniomes2]"
                       name="aniomes2" />
+                    <outputColumn
+                      refId="Package\Volcado datos\cpt_facturas.Outputs[Salida de error de origen de OLE DB].Columns[observaciones2]"
+                      codePage="1252"
+                      dataType="str"
+                      length="500"
+                      lineageId="Package\Volcado datos\cpt_facturas.Outputs[Salida de error de origen de OLE DB].Columns[observaciones2]"
+                      name="observaciones2" />
+                    <outputColumn
+                      refId="Package\Volcado datos\cpt_facturas.Outputs[Salida de error de origen de OLE DB].Columns[cod_articulo]"
+                      codePage="1252"
+                      dataType="str"
+                      length="16"
+                      lineageId="Package\Volcado datos\cpt_facturas.Outputs[Salida de error de origen de OLE DB].Columns[cod_articulo]"
+                      name="cod_articulo" />
+                    <outputColumn
+                      refId="Package\Volcado datos\cpt_facturas.Outputs[Salida de error de origen de OLE DB].Columns[observaciones3]"
+                      codePage="1252"
+                      dataType="str"
+                      length="500"
+                      lineageId="Package\Volcado datos\cpt_facturas.Outputs[Salida de error de origen de OLE DB].Columns[observaciones3]"
+                      name="observaciones3" />
                     <outputColumn
                       refId="Package\Volcado datos\cpt_facturas.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]"
                       dataType="i4"
@@ -14295,6 +14415,17 @@
                       lineageId="Package\Volcado datos\cpt_inscripact.Outputs[Salida de origen de OLE DB].Columns[aniomes2]"
                       name="aniomes2"
                       truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Volcado datos\cpt_inscripact.Outputs[Salida de origen de OLE DB].Columns[porcentaje]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Volcado datos\cpt_inscripact.Outputs[Salida de origen de OLE DB].ExternalColumns[porcentaje]"
+                      lineageId="Package\Volcado datos\cpt_inscripact.Outputs[Salida de origen de OLE DB].Columns[porcentaje]"
+                      name="porcentaje"
+                      precision="15"
+                      scale="5"
+                      truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -14484,6 +14615,12 @@
                       refId="Package\Volcado datos\cpt_inscripact.Outputs[Salida de origen de OLE DB].ExternalColumns[aniomes2]"
                       dataType="i4"
                       name="aniomes2" />
+                    <externalMetadataColumn
+                      refId="Package\Volcado datos\cpt_inscripact.Outputs[Salida de origen de OLE DB].ExternalColumns[porcentaje]"
+                      dataType="numeric"
+                      name="porcentaje"
+                      precision="15"
+                      scale="5" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -14712,6 +14849,13 @@
                       dataType="i4"
                       lineageId="Package\Volcado datos\cpt_inscripact.Outputs[Salida de error de origen de OLE DB].Columns[aniomes2]"
                       name="aniomes2" />
+                    <outputColumn
+                      refId="Package\Volcado datos\cpt_inscripact.Outputs[Salida de error de origen de OLE DB].Columns[porcentaje]"
+                      dataType="numeric"
+                      lineageId="Package\Volcado datos\cpt_inscripact.Outputs[Salida de error de origen de OLE DB].Columns[porcentaje]"
+                      name="porcentaje"
+                      precision="15"
+                      scale="5" />
                     <outputColumn
                       refId="Package\Volcado datos\cpt_inscripact.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]"
                       dataType="i4"
@@ -48303,69 +48447,69 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
               startId="Package\Volcado datos\ct_valcuotascont.Outputs[Salida de origen de OLE DB]" />
             <path
               refId="Package\Volcado datos.Paths[Salida de origen de OLE DB27]"
-              endId="Package\Volcado datos\ODS_NDM_CONT_ct_contratoscamp.Inputs[Entrada de destino de OLE DB]"
+              endId="Package\Volcado datos\ODS_NDM_CONT_cpp_desccontfin.Inputs[Entrada de destino de OLE DB]"
               name="Salida de origen de OLE DB"
-              startId="Package\Volcado datos\ct_contratoscamp.Outputs[Salida de origen de OLE DB]" />
+              startId="Package\Volcado datos\cpp_desccontfin.Outputs[Salida de origen de OLE DB]" />
             <path
               refId="Package\Volcado datos.Paths[Salida de origen de OLE DB26]"
-              endId="Package\Volcado datos\ODS_NDM_CONT_cpp_gestionmor.Inputs[Entrada de destino de OLE DB]"
+              endId="Package\Volcado datos\ODS_NDM_CONT_ct_licenciaacade.Inputs[Entrada de destino de OLE DB]"
               name="Salida de origen de OLE DB"
-              startId="Package\Volcado datos\cpp_gestionmor.Outputs[Salida de origen de OLE DB]" />
+              startId="Package\Volcado datos\ct_licenciaacade.Outputs[Salida de origen de OLE DB]" />
             <path
               refId="Package\Volcado datos.Paths[Salida de origen de OLE DB25]"
-              endId="Package\Volcado datos\ODS_NDM_CONT_cpt_altarevalida.Inputs[Entrada de destino de OLE DB]"
+              endId="Package\Volcado datos\ODS_NDM_CONT_ct_numeracuotas.Inputs[Entrada de destino de OLE DB]"
               name="Salida de origen de OLE DB"
-              startId="Package\Volcado datos\cpt_altarevalida.Outputs[Salida de origen de OLE DB]" />
+              startId="Package\Volcado datos\ct_numeracuotas.Outputs[Salida de origen de OLE DB]" />
             <path
               refId="Package\Volcado datos.Paths[Salida de origen de OLE DB24]"
-              endId="Package\Volcado datos\ODS_NDM_CONT_cpt_altarecurse.Inputs[Entrada de destino de OLE DB]"
+              endId="Package\Volcado datos\ODS_NDM_CONT_ct_concepfaccont.Inputs[Entrada de destino de OLE DB]"
               name="Salida de origen de OLE DB"
-              startId="Package\Volcado datos\cpt_altarecurse.Outputs[Salida de origen de OLE DB]" />
+              startId="Package\Volcado datos\ct_concepfaccont.Outputs[Salida de origen de OLE DB]" />
             <path
               refId="Package\Volcado datos.Paths[Salida de origen de OLE DB23]"
-              endId="Package\Volcado datos\ODS_NDM_CONT_cpt_gestionmor.Inputs[Entrada de destino de OLE DB]"
+              endId="Package\Volcado datos\ODS_NDM_CONT_ct_reajustecont.Inputs[Entrada de destino de OLE DB]"
               name="Salida de origen de OLE DB"
-              startId="Package\Volcado datos\cpt_gestionmor.Outputs[Salida de origen de OLE DB]" />
+              startId="Package\Volcado datos\ct_reajustecont.Outputs[Salida de origen de OLE DB]" />
             <path
               refId="Package\Volcado datos.Paths[Salida de origen de OLE DB22]"
-              endId="Package\Volcado datos\ODS_NDM_CONT_cpt_instmoroso.Inputs[Entrada de destino de OLE DB]"
+              endId="Package\Volcado datos\ODS_NDM_CONT_cpt_facturas.Inputs[Entrada de destino de OLE DB]"
               name="Salida de origen de OLE DB"
-              startId="Package\Volcado datos\cpt_instmoroso.Outputs[Salida de origen de OLE DB]" />
+              startId="Package\Volcado datos\cpt_facturas.Outputs[Salida de origen de OLE DB]" />
             <path
               refId="Package\Volcado datos.Paths[Salida de origen de OLE DB21]"
-              endId="Package\Volcado datos\ODS_NDM_CONT_cpt_cobranza.Inputs[Entrada de destino de OLE DB]"
+              endId="Package\Volcado datos\ODS_NDM_CONT_cps_facturas.Inputs[Entrada de destino de OLE DB]"
               name="Salida de origen de OLE DB"
-              startId="Package\Volcado datos\cpt_cobranza.Outputs[Salida de origen de OLE DB]" />
+              startId="Package\Volcado datos\cps_facturas.Outputs[Salida de origen de OLE DB]" />
             <path
               refId="Package\Volcado datos.Paths[Salida de origen de OLE DB20]"
-              endId="Package\Volcado datos\ODS_NDM_CONT_cpt_actrespago.Inputs[Entrada de destino de OLE DB]"
+              endId="Package\Volcado datos\ODS_NDM_CONT_cpp_desccontrato.Inputs[Entrada de destino de OLE DB]"
               name="Salida de origen de OLE DB"
-              startId="Package\Volcado datos\cpt_actrespago.Outputs[Salida de origen de OLE DB]" />
+              startId="Package\Volcado datos\cpp_desccontrato.Outputs[Salida de origen de OLE DB]" />
             <path
               refId="Package\Volcado datos.Paths[Salida de origen de OLE DB19]"
-              endId="Package\Volcado datos\ODS_NDM_CONT_ct_articulos.Inputs[Entrada de destino de OLE DB]"
+              endId="Package\Volcado datos\ODS_NDM_CONT_v_congvalcuotas.Inputs[Entrada de destino de OLE DB]"
               name="Salida de origen de OLE DB"
-              startId="Package\Volcado datos\ct_articulos.Outputs[Salida de origen de OLE DB]" />
+              startId="Package\Volcado datos\v_congvalcuotas.Outputs[Salida de origen de OLE DB]" />
             <path
               refId="Package\Volcado datos.Paths[Salida de origen de OLE DB18]"
-              endId="Package\Volcado datos\ODS_NDM_CONT_v_cz_prebase.Inputs[Entrada de destino de OLE DB]"
+              endId="Package\Volcado datos\ODS_NDM_CONT_cpt_desccontl.Inputs[Entrada de destino de OLE DB]"
               name="Salida de origen de OLE DB"
-              startId="Package\Volcado datos\v_cz_prebase.Outputs[Salida de origen de OLE DB]" />
+              startId="Package\Volcado datos\cpt_desccontl.Outputs[Salida de origen de OLE DB]" />
             <path
               refId="Package\Volcado datos.Paths[Salida de origen de OLE DB17]"
-              endId="Package\Volcado datos\ODS_NDM_CONT_v_cuotascontant.Inputs[Entrada de destino de OLE DB]"
+              endId="Package\Volcado datos\ODS_NDM_CONT_cpt_inscripact.Inputs[Entrada de destino de OLE DB]"
               name="Salida de origen de OLE DB"
-              startId="Package\Volcado datos\v_cuotascontant.Outputs[Salida de origen de OLE DB]" />
+              startId="Package\Volcado datos\cpt_inscripact.Outputs[Salida de origen de OLE DB]" />
             <path
               refId="Package\Volcado datos.Paths[Salida de origen de OLE DB16]"
-              endId="Package\Volcado datos\ODS_NDM_CONT_ct_monedas.Inputs[Entrada de destino de OLE DB]"
+              endId="Package\Volcado datos\ODS_NDM_CONT_cpt_planpagos.Inputs[Entrada de destino de OLE DB]"
               name="Salida de origen de OLE DB"
-              startId="Package\Volcado datos\ct_monedas.Outputs[Salida de origen de OLE DB]" />
+              startId="Package\Volcado datos\cpt_planpagos.Outputs[Salida de origen de OLE DB]" />
             <path
               refId="Package\Volcado datos.Paths[Salida de origen de OLE DB15]"
-              endId="Package\Volcado datos\ODS_NDM_CONT_ct_clientes.Inputs[Entrada de destino de OLE DB]"
+              endId="Package\Volcado datos\ODS_NDM_CONT_ct_alumnos.Inputs[Entrada de destino de OLE DB]"
               name="Salida de origen de OLE DB"
-              startId="Package\Volcado datos\ct_clientes.Outputs[Salida de origen de OLE DB]" />
+              startId="Package\Volcado datos\ct_alumnos.Outputs[Salida de origen de OLE DB]" />
             <path
               refId="Package\Volcado datos.Paths[Salida de origen de OLE DB14]"
               endId="Package\Volcado datos\ODS_NDM_CONT_ct_dptos.Inputs[Entrada de destino de OLE DB]"
@@ -48373,69 +48517,69 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
               startId="Package\Volcado datos\ct_dptos.Outputs[Salida de origen de OLE DB]" />
             <path
               refId="Package\Volcado datos.Paths[Salida de origen de OLE DB13]"
-              endId="Package\Volcado datos\ODS_NDM_CONT_ct_alumnos.Inputs[Entrada de destino de OLE DB]"
+              endId="Package\Volcado datos\ODS_NDM_CONT_ct_clientes.Inputs[Entrada de destino de OLE DB]"
               name="Salida de origen de OLE DB"
-              startId="Package\Volcado datos\ct_alumnos.Outputs[Salida de origen de OLE DB]" />
+              startId="Package\Volcado datos\ct_clientes.Outputs[Salida de origen de OLE DB]" />
             <path
               refId="Package\Volcado datos.Paths[Salida de origen de OLE DB12]"
-              endId="Package\Volcado datos\ODS_NDM_CONT_cpt_planpagos.Inputs[Entrada de destino de OLE DB]"
+              endId="Package\Volcado datos\ODS_NDM_CONT_ct_monedas.Inputs[Entrada de destino de OLE DB]"
               name="Salida de origen de OLE DB"
-              startId="Package\Volcado datos\cpt_planpagos.Outputs[Salida de origen de OLE DB]" />
+              startId="Package\Volcado datos\ct_monedas.Outputs[Salida de origen de OLE DB]" />
             <path
               refId="Package\Volcado datos.Paths[Salida de origen de OLE DB11]"
-              endId="Package\Volcado datos\ODS_NDM_CONT_cpt_inscripact.Inputs[Entrada de destino de OLE DB]"
+              endId="Package\Volcado datos\ODS_NDM_CONT_v_cuotascontant.Inputs[Entrada de destino de OLE DB]"
               name="Salida de origen de OLE DB"
-              startId="Package\Volcado datos\cpt_inscripact.Outputs[Salida de origen de OLE DB]" />
+              startId="Package\Volcado datos\v_cuotascontant.Outputs[Salida de origen de OLE DB]" />
             <path
               refId="Package\Volcado datos.Paths[Salida de origen de OLE DB10]"
-              endId="Package\Volcado datos\ODS_NDM_CONT_cpt_desccontl.Inputs[Entrada de destino de OLE DB]"
+              endId="Package\Volcado datos\ODS_NDM_CONT_v_cz_prebase.Inputs[Entrada de destino de OLE DB]"
               name="Salida de origen de OLE DB"
-              startId="Package\Volcado datos\cpt_desccontl.Outputs[Salida de origen de OLE DB]" />
+              startId="Package\Volcado datos\v_cz_prebase.Outputs[Salida de origen de OLE DB]" />
             <path
               refId="Package\Volcado datos.Paths[Salida de origen de OLE DB9]"
-              endId="Package\Volcado datos\ODS_NDM_CONT_v_congvalcuotas.Inputs[Entrada de destino de OLE DB]"
+              endId="Package\Volcado datos\ODS_NDM_CONT_ct_articulos.Inputs[Entrada de destino de OLE DB]"
               name="Salida de origen de OLE DB"
-              startId="Package\Volcado datos\v_congvalcuotas.Outputs[Salida de origen de OLE DB]" />
+              startId="Package\Volcado datos\ct_articulos.Outputs[Salida de origen de OLE DB]" />
             <path
               refId="Package\Volcado datos.Paths[Salida de origen de OLE DB8]"
-              endId="Package\Volcado datos\ODS_NDM_CONT_cpp_desccontrato.Inputs[Entrada de destino de OLE DB]"
+              endId="Package\Volcado datos\ODS_NDM_CONT_cpt_actrespago.Inputs[Entrada de destino de OLE DB]"
               name="Salida de origen de OLE DB"
-              startId="Package\Volcado datos\cpp_desccontrato.Outputs[Salida de origen de OLE DB]" />
+              startId="Package\Volcado datos\cpt_actrespago.Outputs[Salida de origen de OLE DB]" />
             <path
               refId="Package\Volcado datos.Paths[Salida de origen de OLE DB7]"
-              endId="Package\Volcado datos\ODS_NDM_CONT_cps_facturas.Inputs[Entrada de destino de OLE DB]"
+              endId="Package\Volcado datos\ODS_NDM_CONT_cpt_cobranza.Inputs[Entrada de destino de OLE DB]"
               name="Salida de origen de OLE DB"
-              startId="Package\Volcado datos\cps_facturas.Outputs[Salida de origen de OLE DB]" />
+              startId="Package\Volcado datos\cpt_cobranza.Outputs[Salida de origen de OLE DB]" />
             <path
               refId="Package\Volcado datos.Paths[Salida de origen de OLE DB6]"
-              endId="Package\Volcado datos\ODS_NDM_CONT_cpt_facturas.Inputs[Entrada de destino de OLE DB]"
+              endId="Package\Volcado datos\ODS_NDM_CONT_cpt_instmoroso.Inputs[Entrada de destino de OLE DB]"
               name="Salida de origen de OLE DB"
-              startId="Package\Volcado datos\cpt_facturas.Outputs[Salida de origen de OLE DB]" />
+              startId="Package\Volcado datos\cpt_instmoroso.Outputs[Salida de origen de OLE DB]" />
             <path
               refId="Package\Volcado datos.Paths[Salida de origen de OLE DB5]"
-              endId="Package\Volcado datos\ODS_NDM_CONT_ct_reajustecont.Inputs[Entrada de destino de OLE DB]"
+              endId="Package\Volcado datos\ODS_NDM_CONT_cpt_gestionmor.Inputs[Entrada de destino de OLE DB]"
               name="Salida de origen de OLE DB"
-              startId="Package\Volcado datos\ct_reajustecont.Outputs[Salida de origen de OLE DB]" />
+              startId="Package\Volcado datos\cpt_gestionmor.Outputs[Salida de origen de OLE DB]" />
             <path
               refId="Package\Volcado datos.Paths[Salida de origen de OLE DB4]"
-              endId="Package\Volcado datos\ODS_NDM_CONT_ct_concepfaccont.Inputs[Entrada de destino de OLE DB]"
+              endId="Package\Volcado datos\ODS_NDM_CONT_cpt_altarecurse.Inputs[Entrada de destino de OLE DB]"
               name="Salida de origen de OLE DB"
-              startId="Package\Volcado datos\ct_concepfaccont.Outputs[Salida de origen de OLE DB]" />
+              startId="Package\Volcado datos\cpt_altarecurse.Outputs[Salida de origen de OLE DB]" />
             <path
               refId="Package\Volcado datos.Paths[Salida de origen de OLE DB3]"
-              endId="Package\Volcado datos\ODS_NDM_CONT_ct_numeracuotas.Inputs[Entrada de destino de OLE DB]"
+              endId="Package\Volcado datos\ODS_NDM_CONT_cpt_altarevalida.Inputs[Entrada de destino de OLE DB]"
               name="Salida de origen de OLE DB"
-              startId="Package\Volcado datos\ct_numeracuotas.Outputs[Salida de origen de OLE DB]" />
+              startId="Package\Volcado datos\cpt_altarevalida.Outputs[Salida de origen de OLE DB]" />
             <path
               refId="Package\Volcado datos.Paths[Salida de origen de OLE DB2]"
-              endId="Package\Volcado datos\ODS_NDM_CONT_ct_licenciaacade.Inputs[Entrada de destino de OLE DB]"
+              endId="Package\Volcado datos\ODS_NDM_CONT_cpp_gestionmor.Inputs[Entrada de destino de OLE DB]"
               name="Salida de origen de OLE DB"
-              startId="Package\Volcado datos\ct_licenciaacade.Outputs[Salida de origen de OLE DB]" />
+              startId="Package\Volcado datos\cpp_gestionmor.Outputs[Salida de origen de OLE DB]" />
             <path
               refId="Package\Volcado datos.Paths[Salida de origen de OLE DB1]"
-              endId="Package\Volcado datos\ODS_NDM_CONT_cpp_desccontfin.Inputs[Entrada de destino de OLE DB]"
+              endId="Package\Volcado datos\ODS_NDM_CONT_ct_contratoscamp.Inputs[Entrada de destino de OLE DB]"
               name="Salida de origen de OLE DB"
-              startId="Package\Volcado datos\cpp_desccontfin.Outputs[Salida de origen de OLE DB]" />
+              startId="Package\Volcado datos\ct_contratoscamp.Outputs[Salida de origen de OLE DB]" />
             <path
               refId="Package\Volcado datos.Paths[Salida de origen de OLE DB28]"
               endId="Package\Volcado datos\ODS_NDM_CONT_ct_dptosneg.Inputs[Entrada de destino de OLE DB]"
@@ -48512,101 +48656,93 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
       <GraphLayout
         Capacity="128" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="239,42"
-          Id="Package\Volcado datos\ODS_NDM_CONT_cpt_actrespago"
-          TopLeft="245.490909090909,1176.5" />
-        <NodeLayout
-          Size="152,42"
-          Id="Package\Volcado datos\cpt_gestionmor"
-          TopLeft="17.4909090909091,1356.5" />
-        <NodeLayout
-          Size="240,42"
-          Id="Package\Volcado datos\ODS_NDM_CONT_cpt_gestionmor"
-          TopLeft="245.490909090909,1359.1438797423" />
-        <NodeLayout
-          Size="235,42"
-          Id="Package\Volcado datos\ODS_NDM_CONT_cpt_planpagos"
-          TopLeft="225.5,760.75" />
-        <NodeLayout
-          Size="224,42"
-          Id="Package\Volcado datos\ODS_NDM_CONT_ct_monedas"
-          TopLeft="225.5,1012.5" />
-        <NodeLayout
-          Size="251,42"
-          Id="Package\Volcado datos\ODS_NDM_CONT_ct_contratoscamp"
-          TopLeft="225.5,257.25" />
-        <NodeLayout
-          Size="129,42"
-          Id="Package\Volcado datos\ct_clientes"
-          TopLeft="10.5,949.5625" />
-        <NodeLayout
-          Size="243,42"
-          Id="Package\Volcado datos\ODS_NDM_CONT_cpp_desccontfin"
-          TopLeft="225.5,509" />
-        <NodeLayout
-          Size="137,42"
-          Id="Package\Volcado datos\cpt_facturas"
-          TopLeft="10.5,383.125" />
-        <NodeLayout
-          Size="244,42"
-          Id="Package\Volcado datos\ODS_NDM_CONT_v_cuotascontant"
-          TopLeft="737.354545454545,759.5" />
-        <NodeLayout
           Size="162,42"
-          Id="Package\Volcado datos\cpp_desccontrato"
-          TopLeft="10.5,571.9375" />
+          Id="Package\Volcado datos\ct_contratoscamp"
+          TopLeft="10.5,257.25" />
         <NodeLayout
           Size="156,42"
           Id="Package\Volcado datos\v_cuotascontant"
           TopLeft="498.5,761.5" />
         <NodeLayout
-          Size="225,42"
-          Id="Package\Volcado datos\ODS_NDM_CONT_cpt_facturas"
-          TopLeft="225.5,383.125" />
+          Size="217,42"
+          Id="Package\Volcado datos\ODS_NDM_CONT_ct_clientes"
+          TopLeft="225.5,949.5625" />
         <NodeLayout
-          Size="161,42"
-          Id="Package\Volcado datos\ct_concepfaccont"
-          TopLeft="10.5,194.3125" />
-        <NodeLayout
-          Size="232,42"
-          Id="Package\Volcado datos\ODS_NDM_CONT_cpt_inscripact"
-          TopLeft="225.5,697.8125" />
-        <NodeLayout
-          Size="226,42"
-          Id="Package\Volcado datos\ODS_NDM_CONT_cps_facturas"
-          TopLeft="225.5,446.0625" />
-        <NodeLayout
-          Size="239,42"
-          Id="Package\Volcado datos\ODS_NDM_CONT_cpt_instmoroso"
-          TopLeft="245.490909090909,1300.10676691729" />
-        <NodeLayout
-          Size="239,42"
-          Id="Package\Volcado datos\ODS_NDM_CONT_cpt_altarecurse"
-          TopLeft="245.490909090909,1421.30357142857" />
+          Size="119,42"
+          Id="Package\Volcado datos\ct_dptos"
+          TopLeft="10.5,886.625" />
         <NodeLayout
           Size="133,42"
           Id="Package\Volcado datos\ct_alumnos"
           TopLeft="10.5,823.6875" />
         <NodeLayout
-          Size="157,42"
-          Id="Package\Volcado datos\v_congvalcuotas"
-          TopLeft="498.5,319.5" />
+          Size="129,42"
+          Id="Package\Volcado datos\ct_clientes"
+          TopLeft="10.5,949.5625" />
         <NodeLayout
-          Size="154,42"
-          Id="Package\Volcado datos\cpp_gestionmor"
-          TopLeft="17.4909090909091,1556.5" />
+          Size="249,42"
+          Id="Package\Volcado datos\ODS_NDM_CONT_ct_concepfaccont"
+          TopLeft="225.5,194.3125" />
+        <NodeLayout
+          Size="225,42"
+          Id="Package\Volcado datos\ODS_NDM_CONT_cpt_facturas"
+          TopLeft="225.5,383.125" />
+        <NodeLayout
+          Size="246,42"
+          Id="Package\Volcado datos\ODS_NDM_CONT_ct_valcuotascont"
+          TopLeft="225.5,5.5" />
+        <NodeLayout
+          Size="232,42"
+          Id="Package\Volcado datos\ODS_NDM_CONT_cpt_inscripact"
+          TopLeft="225.5,697.8125" />
+        <NodeLayout
+          Size="162,42"
+          Id="Package\Volcado datos\cpp_desccontrato"
+          TopLeft="10.5,571.9375" />
+        <NodeLayout
+          Size="239,42"
+          Id="Package\Volcado datos\ODS_NDM_CONT_cpt_instmoroso"
+          TopLeft="245.490909090909,1300.10676691729" />
+        <NodeLayout
+          Size="231,42"
+          Id="Package\Volcado datos\ODS_NDM_CONT_cpt_desccontl"
+          TopLeft="225.5,634.875" />
+        <NodeLayout
+          Size="243,42"
+          Id="Package\Volcado datos\ODS_NDM_CONT_ct_codsiscarrera"
+          TopLeft="245.490909090909,1684.90289017341" />
+        <NodeLayout
+          Size="155,42"
+          Id="Package\Volcado datos\ct_codsiscarrera"
+          TopLeft="15.5,1678.5" />
+        <NodeLayout
+          Size="243,42"
+          Id="Package\Volcado datos\ODS_NDM_CONT_cpp_desccontfin"
+          TopLeft="225.5,509" />
+        <NodeLayout
+          Size="244,42"
+          Id="Package\Volcado datos\ODS_NDM_CONT_v_cuotascontant"
+          TopLeft="737.354545454545,759.5" />
+        <NodeLayout
+          Size="151,42"
+          Id="Package\Volcado datos\ct_reajustecont"
+          TopLeft="10.5,320.1875" />
+        <NodeLayout
+          Size="224,42"
+          Id="Package\Volcado datos\ODS_NDM_CONT_ct_monedas"
+          TopLeft="225.5,1012.5" />
         <NodeLayout
           Size="155,42"
           Id="Package\Volcado datos\ct_licenciaacade"
           TopLeft="10.5,68.4375" />
         <NodeLayout
-          Size="248,42"
-          Id="Package\Volcado datos\ODS_NDM_CONT_ct_numeracuotas"
-          TopLeft="225.5,131.375" />
+          Size="207,42"
+          Id="Package\Volcado datos\ODS_NDM_CONT_ct_dptos"
+          TopLeft="225.5,886.625" />
         <NodeLayout
-          Size="246,42"
-          Id="Package\Volcado datos\ODS_NDM_CONT_ct_valcuotascont"
-          TopLeft="225.5,5.5" />
+          Size="154,42"
+          Id="Package\Volcado datos\cpp_gestionmor"
+          TopLeft="17.4909090909091,1556.5" />
         <NodeLayout
           Size="157,42"
           Id="Package\Volcado datos\ct_valcuotascont"
@@ -48616,9 +48752,9 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
           Id="Package\Volcado datos\ODS_NDM_CONT_ct_articulos"
           TopLeft="245.490909090909,1099.32448630137" />
         <NodeLayout
-          Size="151,42"
-          Id="Package\Volcado datos\ct_reajustecont"
-          TopLeft="10.5,320.1875" />
+          Size="239,42"
+          Id="Package\Volcado datos\ODS_NDM_CONT_cpt_altarecurse"
+          TopLeft="245.490909090909,1421.30357142857" />
         <NodeLayout
           Size="241,42"
           Id="Package\Volcado datos\ODS_NDM_CONT_cpt_altarevalida"
@@ -48628,9 +48764,21 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
           Id="Package\Volcado datos\ODS_NDM_CONT_cpp_desccontrato"
           TopLeft="225.5,571.9375" />
         <NodeLayout
-          Size="162,42"
-          Id="Package\Volcado datos\ct_contratoscamp"
-          TopLeft="10.5,257.25" />
+          Size="235,42"
+          Id="Package\Volcado datos\ODS_NDM_CONT_cpt_planpagos"
+          TopLeft="225.5,760.75" />
+        <NodeLayout
+          Size="240,42"
+          Id="Package\Volcado datos\ODS_NDM_CONT_ct_reajustecont"
+          TopLeft="225.5,320.1875" />
+        <NodeLayout
+          Size="221,42"
+          Id="Package\Volcado datos\ODS_NDM_CONT_ct_alumnos"
+          TopLeft="225.5,823.6875" />
+        <NodeLayout
+          Size="138,42"
+          Id="Package\Volcado datos\cps_facturas"
+          TopLeft="10.5,446.0625" />
         <NodeLayout
           Size="151,42"
           Id="Package\Volcado datos\cpt_altarecurse"
@@ -48644,49 +48792,49 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
           Id="Package\Volcado datos\cpt_desccontl"
           TopLeft="10.5,634.875" />
         <NodeLayout
-          Size="119,42"
-          Id="Package\Volcado datos\ct_dptos"
-          TopLeft="10.5,886.625" />
+          Size="136,42"
+          Id="Package\Volcado datos\ct_monedas"
+          TopLeft="10.5,1012.5" />
         <NodeLayout
-          Size="221,42"
-          Id="Package\Volcado datos\ODS_NDM_CONT_ct_alumnos"
-          TopLeft="225.5,823.6875" />
+          Size="157,42"
+          Id="Package\Volcado datos\v_congvalcuotas"
+          TopLeft="498.5,319.5" />
         <NodeLayout
           Size="151,42"
           Id="Package\Volcado datos\cpt_instmoroso"
           TopLeft="17.4909090909091,1295.5" />
         <NodeLayout
-          Size="217,42"
-          Id="Package\Volcado datos\ODS_NDM_CONT_ct_clientes"
-          TopLeft="225.5,949.5625" />
-        <NodeLayout
           Size="147,42"
           Id="Package\Volcado datos\cpt_planpagos"
           TopLeft="10.5,760.75" />
-        <NodeLayout
-          Size="136,42"
-          Id="Package\Volcado datos\ct_monedas"
-          TopLeft="10.5,1012.5" />
-        <NodeLayout
-          Size="249,42"
-          Id="Package\Volcado datos\ODS_NDM_CONT_ct_concepfaccont"
-          TopLeft="225.5,194.3125" />
         <NodeLayout
           Size="245,42"
           Id="Package\Volcado datos\ODS_NDM_CONT_v_congvalcuotas"
           TopLeft="737.354545454545,319.5" />
         <NodeLayout
+          Size="137,42"
+          Id="Package\Volcado datos\cpt_facturas"
+          TopLeft="10.5,383.125" />
+        <NodeLayout
+          Size="225,42"
+          Id="Package\Volcado datos\ODS_NDM_CONT_ct_dptosneg"
+          TopLeft="245.490909090909,1619.5" />
+        <NodeLayout
+          Size="161,42"
+          Id="Package\Volcado datos\ct_concepfaccont"
+          TopLeft="10.5,194.3125" />
+        <NodeLayout
+          Size="248,42"
+          Id="Package\Volcado datos\ODS_NDM_CONT_ct_numeracuotas"
+          TopLeft="225.5,131.375" />
+        <NodeLayout
           Size="143,42"
           Id="Package\Volcado datos\v_cz_prebase"
           TopLeft="498.5,1042.5" />
         <NodeLayout
-          Size="207,42"
-          Id="Package\Volcado datos\ODS_NDM_CONT_ct_dptos"
-          TopLeft="225.5,886.625" />
-        <NodeLayout
-          Size="230,42"
-          Id="Package\Volcado datos\ODS_NDM_CONT_cpt_cobranza"
-          TopLeft="245.490909090909,1232.95918367347" />
+          Size="231,42"
+          Id="Package\Volcado datos\ODS_NDM_CONT_v_cz_prebase"
+          TopLeft="737.354545454545,1037.05405405405" />
         <NodeLayout
           Size="153,42"
           Id="Package\Volcado datos\cpt_altarevalida"
@@ -48700,44 +48848,254 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
           Id="Package\Volcado datos\cpt_actrespago"
           TopLeft="17.4909090909091,1174.5" />
         <NodeLayout
-          Size="243,42"
-          Id="Package\Volcado datos\ODS_NDM_CONT_ct_licenciaacade"
-          TopLeft="225.5,68.4375" />
-        <NodeLayout
-          Size="231,42"
-          Id="Package\Volcado datos\ODS_NDM_CONT_cpt_desccontl"
-          TopLeft="225.5,634.875" />
-        <NodeLayout
           Size="160,42"
           Id="Package\Volcado datos\ct_numeracuotas"
           TopLeft="10.5,131.375" />
         <NodeLayout
-          Size="138,42"
-          Id="Package\Volcado datos\cps_facturas"
-          TopLeft="10.5,446.0625" />
+          Size="152,42"
+          Id="Package\Volcado datos\cpt_gestionmor"
+          TopLeft="17.4909090909091,1356.5" />
         <NodeLayout
           Size="242,42"
           Id="Package\Volcado datos\ODS_NDM_CONT_cpp_gestionmor"
           TopLeft="245.490909090909,1555.76358024691" />
         <NodeLayout
+          Size="137,42"
+          Id="Package\Volcado datos\ct_dptosneg"
+          TopLeft="12.5,1619.5" />
+        <NodeLayout
+          Size="230,42"
+          Id="Package\Volcado datos\ODS_NDM_CONT_cpt_cobranza"
+          TopLeft="245.490909090909,1232.95918367347" />
+        <NodeLayout
+          Size="226,42"
+          Id="Package\Volcado datos\ODS_NDM_CONT_cps_facturas"
+          TopLeft="225.5,446.0625" />
+        <NodeLayout
+          Size="251,42"
+          Id="Package\Volcado datos\ODS_NDM_CONT_ct_contratoscamp"
+          TopLeft="225.5,257.25" />
+        <NodeLayout
           Size="142,42"
           Id="Package\Volcado datos\cpt_cobranza"
           TopLeft="17.4909090909091,1231.5" />
         <NodeLayout
-          Size="240,42"
-          Id="Package\Volcado datos\ODS_NDM_CONT_ct_reajustecont"
-          TopLeft="225.5,320.1875" />
+          Size="239,42"
+          Id="Package\Volcado datos\ODS_NDM_CONT_cpt_actrespago"
+          TopLeft="245.490909090909,1176.5" />
+        <NodeLayout
+          Size="243,42"
+          Id="Package\Volcado datos\ODS_NDM_CONT_ct_licenciaacade"
+          TopLeft="225.5,68.4375" />
         <NodeLayout
           Size="155,42"
           Id="Package\Volcado datos\cpp_desccontfin"
           TopLeft="10.5,509" />
         <NodeLayout
-          Size="231,42"
-          Id="Package\Volcado datos\ODS_NDM_CONT_v_cz_prebase"
-          TopLeft="737.354545454545,1037.05405405405" />
+          Size="240,42"
+          Id="Package\Volcado datos\ODS_NDM_CONT_cpt_gestionmor"
+          TopLeft="245.490909090909,1359.1438797423" />
+        <EdgeLayout
+          Id="Package\Volcado datos.Paths[Salida de origen de OLE DB29]"
+          TopLeft="170.5,1702.70144508671">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="74.990909090909,0"
+              Start="0,0"
+              End="67.490909090909,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="67.490909090909,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Volcado datos.Paths[Salida de origen de OLE DB28]"
+          TopLeft="149.5,1640.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="95.990909090909,0"
+              Start="0,0"
+              End="88.490909090909,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="88.490909090909,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Volcado datos.Paths[Salida de origen de OLE DB27]"
-          TopLeft="172.5,278.25">
+          TopLeft="165.5,530">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="60,0"
+              Start="0,0"
+              End="52.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="52.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Volcado datos.Paths[Salida de origen de OLE DB26]"
+          TopLeft="165.5,89.4375">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="60,0"
+              Start="0,0"
+              End="52.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="52.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Volcado datos.Paths[Salida de origen de OLE DB25]"
+          TopLeft="170.5,152.375">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="55,0"
+              Start="0,0"
+              End="47.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="47.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Volcado datos.Paths[Salida de origen de OLE DB24]"
+          TopLeft="171.5,215.3125">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="54,0"
+              Start="0,0"
+              End="46.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="46.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Volcado datos.Paths[Salida de origen de OLE DB23]"
+          TopLeft="161.5,341.1875">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="64,0"
+              Start="0,0"
+              End="56.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="56.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Volcado datos.Paths[Salida de origen de OLE DB22]"
+          TopLeft="147.5,404.125">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="78,0"
+              Start="0,0"
+              End="70.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="70.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Volcado datos.Paths[Salida de origen de OLE DB21]"
+          TopLeft="148.5,467.0625">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="77,0"
+              Start="0,0"
+              End="69.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="69.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Volcado datos.Paths[Salida de origen de OLE DB20]"
+          TopLeft="172.5,592.9375">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -48758,173 +49116,19 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Volcado datos.Paths[Salida de origen de OLE DB26]"
-          TopLeft="171.490909090909,1577.13179012345">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="73.9999999999999,0"
-              Start="0,0"
-              End="66.4999999999999,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="66.4999999999999,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Volcado datos.Paths[Salida de origen de OLE DB25]"
-          TopLeft="170.490909090909,1505.31217783505">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="75,0"
-              Start="0,0"
-              End="67.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="67.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Volcado datos.Paths[Salida de origen de OLE DB24]"
-          TopLeft="168.490909090909,1441.90178571429">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="77,0"
-              Start="0,0"
-              End="69.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="69.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Volcado datos.Paths[Salida de origen de OLE DB23]"
-          TopLeft="169.490909090909,1378.82193987115">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="76,0"
-              Start="0,0"
-              End="68.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="68.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Volcado datos.Paths[Salida de origen de OLE DB22]"
-          TopLeft="168.490909090909,1318.80338345865">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="77,0"
-              Start="0,0"
-              End="69.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="69.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Volcado datos.Paths[Salida de origen de OLE DB21]"
-          TopLeft="159.490909090909,1253.22959183673">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="86,0"
-              Start="0,0"
-              End="78.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="78.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Volcado datos.Paths[Salida de origen de OLE DB20]"
-          TopLeft="168.490909090909,1196.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="77,0"
-              Start="0,0"
-              End="69.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="69.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package\Volcado datos.Paths[Salida de origen de OLE DB19]"
-          TopLeft="150.490909090909,1120.91224315068">
+          TopLeft="655.5,340.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="95,0"
+              EndConnector="81.854545454545,0"
               Start="0,0"
-              End="87.5,0">
+              End="74.354545454545,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="87.5,0" />
+                    End="74.354545454545,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -48935,18 +49139,18 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Volcado datos.Paths[Salida de origen de OLE DB18]"
-          TopLeft="641.5,1060.77702702703">
+          TopLeft="153.5,655.875">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="95.854545454545,0"
+              EndConnector="72,0"
               Start="0,0"
-              End="88.354545454545,0">
+              End="64.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="88.354545454545,0" />
+                    End="64.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -48957,18 +49161,18 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Volcado datos.Paths[Salida de origen de OLE DB17]"
-          TopLeft="654.5,781.5">
+          TopLeft="154.5,718.8125">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="82.854545454545,0"
+              EndConnector="71,0"
               Start="0,0"
-              End="75.354545454545,0">
+              End="63.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="75.354545454545,0" />
+                    End="63.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -48979,18 +49183,18 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Volcado datos.Paths[Salida de origen de OLE DB16]"
-          TopLeft="146.5,1033.5">
+          TopLeft="157.5,781.75">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="79,0"
+              EndConnector="68,0"
               Start="0,0"
-              End="71.5,0">
+              End="60.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="71.5,0" />
+                    End="60.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -49001,18 +49205,18 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Volcado datos.Paths[Salida de origen de OLE DB15]"
-          TopLeft="139.5,970.5625">
+          TopLeft="143.5,844.6875">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="86,0"
+              EndConnector="82,0"
               Start="0,0"
-              End="78.5,0">
+              End="74.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="78.5,0" />
+                    End="74.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -49045,18 +49249,18 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Volcado datos.Paths[Salida de origen de OLE DB13]"
-          TopLeft="143.5,844.6875">
+          TopLeft="139.5,970.5625">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="82,0"
+              EndConnector="86,0"
               Start="0,0"
-              End="74.5,0">
+              End="78.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="74.5,0" />
+                    End="78.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -49067,18 +49271,18 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Volcado datos.Paths[Salida de origen de OLE DB12]"
-          TopLeft="157.5,781.75">
+          TopLeft="146.5,1033.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="68,0"
+              EndConnector="79,0"
               Start="0,0"
-              End="60.5,0">
+              End="71.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="60.5,0" />
+                    End="71.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -49089,18 +49293,18 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Volcado datos.Paths[Salida de origen de OLE DB11]"
-          TopLeft="154.5,718.8125">
+          TopLeft="654.5,781.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="71,0"
+              EndConnector="82.854545454545,0"
               Start="0,0"
-              End="63.5,0">
+              End="75.354545454545,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="63.5,0" />
+                    End="75.354545454545,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -49111,18 +49315,18 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Volcado datos.Paths[Salida de origen de OLE DB10]"
-          TopLeft="153.5,655.875">
+          TopLeft="641.5,1060.77702702703">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="72,0"
+              EndConnector="95.854545454545,0"
               Start="0,0"
-              End="64.5,0">
+              End="88.354545454545,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="64.5,0" />
+                    End="88.354545454545,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -49133,18 +49337,18 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Volcado datos.Paths[Salida de origen de OLE DB9]"
-          TopLeft="655.5,340.5">
+          TopLeft="150.490909090909,1120.91224315068">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="81.854545454545,0"
+              EndConnector="95,0"
               Start="0,0"
-              End="74.354545454545,0">
+              End="87.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="74.354545454545,0" />
+                    End="87.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -49155,29 +49359,7 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Volcado datos.Paths[Salida de origen de OLE DB8]"
-          TopLeft="172.5,592.9375">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="53,0"
-              Start="0,0"
-              End="45.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="45.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Volcado datos.Paths[Salida de origen de OLE DB7]"
-          TopLeft="148.5,467.0625">
+          TopLeft="168.490909090909,1196.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -49198,19 +49380,41 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Volcado datos.Paths[Salida de origen de OLE DB6]"
-          TopLeft="147.5,404.125">
+          Id="Package\Volcado datos.Paths[Salida de origen de OLE DB7]"
+          TopLeft="159.490909090909,1253.22959183673">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="78,0"
+              EndConnector="86,0"
               Start="0,0"
-              End="70.5,0">
+              End="78.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="70.5,0" />
+                    End="78.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Volcado datos.Paths[Salida de origen de OLE DB6]"
+          TopLeft="168.490909090909,1318.80338345865">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="77,0"
+              Start="0,0"
+              End="69.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="69.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -49221,18 +49425,18 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Volcado datos.Paths[Salida de origen de OLE DB5]"
-          TopLeft="161.5,341.1875">
+          TopLeft="169.490909090909,1378.82193987115">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="64,0"
+              EndConnector="76,0"
               Start="0,0"
-              End="56.5,0">
+              End="68.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="56.5,0" />
+                    End="68.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -49243,18 +49447,18 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Volcado datos.Paths[Salida de origen de OLE DB4]"
-          TopLeft="171.5,215.3125">
+          TopLeft="168.490909090909,1441.90178571429">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="54,0"
+              EndConnector="77,0"
               Start="0,0"
-              End="46.5,0">
+              End="69.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="46.5,0" />
+                    End="69.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -49265,18 +49469,18 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Volcado datos.Paths[Salida de origen de OLE DB3]"
-          TopLeft="170.5,152.375">
+          TopLeft="170.490909090909,1505.31217783505">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="55,0"
+              EndConnector="75,0"
               Start="0,0"
-              End="47.5,0">
+              End="67.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="47.5,0" />
+                    End="67.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -49287,18 +49491,18 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Volcado datos.Paths[Salida de origen de OLE DB2]"
-          TopLeft="165.5,89.4375">
+          TopLeft="171.490909090909,1577.13179012345">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="60,0"
+              EndConnector="73.9999999999999,0"
               Start="0,0"
-              End="52.5,0">
+              End="66.4999999999999,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="52.5,0" />
+                    End="66.4999999999999,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -49309,18 +49513,18 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Volcado datos.Paths[Salida de origen de OLE DB1]"
-          TopLeft="165.5,530">
+          TopLeft="172.5,278.25">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="60,0"
+              EndConnector="53,0"
               Start="0,0"
-              End="52.5,0">
+              End="45.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="52.5,0" />
+                    End="45.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -49351,201 +49555,11 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="137,42"
-          Id="Package\Volcado datos\ct_dptosneg"
-          TopLeft="12.5,1619.5" />
-        <NodeLayout
-          Size="225,42"
-          Id="Package\Volcado datos\ODS_NDM_CONT_ct_dptosneg"
-          TopLeft="245.490909090909,1619.5" />
-        <EdgeLayout
-          Id="Package\Volcado datos.Paths[Salida de origen de OLE DB28]"
-          TopLeft="149.5,1640.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="95.990909090909,0"
-              Start="0,0"
-              End="88.490909090909,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="88.490909090909,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="155,42"
-          Id="Package\Volcado datos\ct_codsiscarrera"
-          TopLeft="15.5,1678.5" />
-        <NodeLayout
-          Size="243,42"
-          Id="Package\Volcado datos\ODS_NDM_CONT_ct_codsiscarrera"
-          TopLeft="245.490909090909,1684.90289017341" />
-        <EdgeLayout
-          Id="Package\Volcado datos.Paths[Salida de origen de OLE DB29]"
-          TopLeft="170.5,1702.70144508671">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="74.990909090909,0"
-              Start="0,0"
-              End="67.490909090909,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="67.490909090909,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ODS_NDM_CONT_cpt_actrespago">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\cpt_gestionmor">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ODS_NDM_CONT_cpt_gestionmor">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ODS_NDM_CONT_cpt_planpagos">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ODS_NDM_CONT_ct_monedas">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ODS_NDM_CONT_ct_contratoscamp">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ct_clientes">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ODS_NDM_CONT_cpp_desccontfin">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\cpt_facturas">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ODS_NDM_CONT_v_cuotascontant">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\cpp_desccontrato">
+    design-time-name="Package\Volcado datos\ct_contratoscamp">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -49571,7 +49585,7 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ODS_NDM_CONT_cpt_facturas">
+    design-time-name="Package\Volcado datos\ODS_NDM_CONT_ct_clientes">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -49584,59 +49598,7 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ct_concepfaccont">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ODS_NDM_CONT_cpt_inscripact">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ODS_NDM_CONT_cps_facturas">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ODS_NDM_CONT_cpt_instmoroso">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ODS_NDM_CONT_cpt_altarecurse">
+    design-time-name="Package\Volcado datos\ct_dptos">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -49662,15 +49624,176 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\v_congvalcuotas">
+    design-time-name="Package\Volcado datos\ct_clientes">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
       </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\cpp_gestionmor">
+    design-time-name="Package\Volcado datos\ODS_NDM_CONT_ct_concepfaccont">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Volcado datos\ODS_NDM_CONT_cpt_facturas">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Volcado datos\ODS_NDM_CONT_ct_valcuotascont">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Volcado datos\ODS_NDM_CONT_cpt_inscripact">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Volcado datos\cpp_desccontrato">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Volcado datos\ODS_NDM_CONT_cpt_instmoroso">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Volcado datos\ODS_NDM_CONT_cpt_desccontl">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Volcado datos\ODS_NDM_CONT_ct_codsiscarrera">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Volcado datos\ct_codsiscarrera">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Volcado datos\ODS_NDM_CONT_cpp_desccontfin">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Volcado datos\ODS_NDM_CONT_v_cuotascontant">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Volcado datos\ct_reajustecont">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Volcado datos\ODS_NDM_CONT_ct_monedas">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -49696,7 +49819,7 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ODS_NDM_CONT_ct_numeracuotas">
+    design-time-name="Package\Volcado datos\ODS_NDM_CONT_ct_dptos">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -49709,7 +49832,7 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ODS_NDM_CONT_ct_valcuotascont">
+    design-time-name="Package\Volcado datos\cpp_gestionmor">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -49748,7 +49871,7 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ct_reajustecont">
+    design-time-name="Package\Volcado datos\ODS_NDM_CONT_cpt_altarecurse">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -49787,7 +49910,46 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ct_contratoscamp">
+    design-time-name="Package\Volcado datos\ODS_NDM_CONT_cpt_planpagos">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Volcado datos\ODS_NDM_CONT_ct_reajustecont">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Volcado datos\ODS_NDM_CONT_ct_alumnos">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Volcado datos\cps_facturas">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -49839,7 +50001,7 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ct_dptos">
+    design-time-name="Package\Volcado datos\ct_monedas">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -49852,33 +50014,15 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ODS_NDM_CONT_ct_alumnos">
+    design-time-name="Package\Volcado datos\v_congvalcuotas">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Volcado datos\cpt_instmoroso">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ODS_NDM_CONT_ct_clientes">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -49904,33 +50048,59 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ct_monedas">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ODS_NDM_CONT_ct_concepfaccont">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Volcado datos\ODS_NDM_CONT_v_congvalcuotas">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Volcado datos\cpt_facturas">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Volcado datos\ODS_NDM_CONT_ct_dptosneg">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Volcado datos\ct_concepfaccont">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Volcado datos\ODS_NDM_CONT_ct_numeracuotas">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -49951,20 +50121,7 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ODS_NDM_CONT_ct_dptos">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ODS_NDM_CONT_cpt_cobranza">
+    design-time-name="Package\Volcado datos\ODS_NDM_CONT_v_cz_prebase">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -50016,32 +50173,6 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ODS_NDM_CONT_ct_licenciaacade">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ODS_NDM_CONT_cpt_desccontl">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Volcado datos\ct_numeracuotas">
     <Properties>
       <Property>
@@ -50055,7 +50186,7 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\cps_facturas">
+    design-time-name="Package\Volcado datos\cpt_gestionmor">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -50081,6 +50212,58 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
+    design-time-name="Package\Volcado datos\ct_dptosneg">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Volcado datos\ODS_NDM_CONT_cpt_cobranza">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Volcado datos\ODS_NDM_CONT_cps_facturas">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Volcado datos\ODS_NDM_CONT_ct_contratoscamp">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\Volcado datos\cpt_cobranza">
     <Properties>
       <Property>
@@ -50094,7 +50277,20 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ODS_NDM_CONT_ct_reajustecont">
+    design-time-name="Package\Volcado datos\ODS_NDM_CONT_cpt_actrespago">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Volcado datos\ODS_NDM_CONT_ct_licenciaacade">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -50120,59 +50316,7 @@ WHERE        ct_valcuotascont.aniomesdesde &lt;&gt; 0</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ODS_NDM_CONT_v_cz_prebase">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ct_dptosneg">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ODS_NDM_CONT_ct_dptosneg">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ct_codsiscarrera">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Volcado datos\ODS_NDM_CONT_ct_codsiscarrera">
+    design-time-name="Package\Volcado datos\ODS_NDM_CONT_cpt_gestionmor">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
